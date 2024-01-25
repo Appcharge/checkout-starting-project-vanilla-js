@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-js-checkout-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server -o -c-1 -p 8080 && watch-sass",
+    "watch-sass": "sass --watch styles.scss:styles.css",
+    "build-sass": "sass styles.scss styles.css",
+    "compile-scss": "node-sass --watch scss -o css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.7"
+  },
+  "dependencies": {
+    "appcharge-checkout-js-sdk": "^0.0.2",
+    "http-server": "^14.1.1"
+  }
+}
