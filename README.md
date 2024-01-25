@@ -8,6 +8,7 @@ To integrate Appcharge Checkout into your web application, follow these steps:
 
 Before you begin, ensure you have the following:
 
+- Run `npm i`
 - Backend Route: Replace `"YOUR_BACKEND_ROUTE"` with the actual route of your backend service.
 - Publisher Token: Replace `"PUBLISHER_TOKEN"` with your publisher token provided by Appcharge.
 
